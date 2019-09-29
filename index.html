@@ -5,23 +5,23 @@
     <meta charset="gb2312">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>ÍòÄÜÊÕ¿îÂë</title>
+    <title>ä¸‡èƒ½æ”¶æ¬¾ç </title>
     
     <script>
     var setting = {
-        // ÔÚÒÔÏÂË«ÒıºÅÖĞÕ³ÌùQQÇ®°üÊÕ¿îÁ´½Ó
+        // åœ¨ä»¥ä¸‹åŒå¼•å·ä¸­ç²˜è´´QQé’±åŒ…æ”¶æ¬¾é“¾æ¥
         qqUrl: "https://i.qianbao.qq.com/wallet/sqrcode.htm?m=tenpay&f=wallet&a=1&ac=B26FED9CAAC4C9F25A124730C59960E17BF296AE2503B7B7CF4C85A0DDF8FC14&u=763142600&n=%E9%80%81%E8%AF%8D.",
         
-        // ÔÚÒÔÏÂË«ÒıºÅÖĞÕ³ÌùÎ¢ĞÅÊÕ¿îÁ´½Ó
+        // åœ¨ä»¥ä¸‹åŒå¼•å·ä¸­ç²˜è´´å¾®ä¿¡æ”¶æ¬¾é“¾æ¥
         wechatUrl: "https://payapp.weixin.qq.com/qr/AQF0N2v8bKQzs1Vr-NhPlsOp?t=GAAC#wechat_pay",
         
-        // ÔÚÒÔÏÂË«ÒıºÅÖĞÕ³ÌùÖ§¸¶±¦ÊÕ¿îÁ´½Ó
+        // åœ¨ä»¥ä¸‹åŒå¼•å·ä¸­ç²˜è´´æ”¯ä»˜å®æ”¶æ¬¾é“¾æ¥
         aliUrl: "HTTPS://QR.ALIPAY.COM/FKX01459QUEKETQZ0V95F6",
         
-        // ÓÃÓÚ¶¯Ì¬Éú³É¶şÎ¬ÂëµÄAPI£¬²»ĞèÒªĞŞ¸Ä¡£
+        // ç”¨äºåŠ¨æ€ç”ŸæˆäºŒç»´ç çš„APIï¼Œä¸éœ€è¦ä¿®æ”¹ã€‚
         qrcodeApi: "http://qr.liantu.com/api.php?text="    
         /*
-        ±¸ÓÃ¶şÎ¬Âëapi£º
+        å¤‡ç”¨äºŒç»´ç apiï¼š
         http://s.jiathis.com/qrcode.php?url=
         http://www.kuaizhan.com/common/encode-png?large=true&data=
         http://b.bshare.cn/barCode?site=weixin&url=
@@ -93,39 +93,39 @@
 
 </head>
 <body>
-    <!-- ÍòÄÜÊÕ¿îÂëÕ¹Ê¾ÇøÓò -->
+    <!-- ä¸‡èƒ½æ”¶æ¬¾ç å±•ç¤ºåŒºåŸŸ -->
     <div class="code-item" id="code-all">
         <div class="code-title"></div>
         <div class="code-area">
             <img id="page-url" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg==">
         </div>
-        <div class="code-footer">É¨ÃèÒÔÉÏ¶şÎ¬ÂëÏòÎÒ¸¶¿î</div>
+        <div class="code-footer">æ‰«æä»¥ä¸ŠäºŒç»´ç å‘æˆ‘ä»˜æ¬¾</div>
     </div>
     
-    <!-- QQÇ®°ü¶şÎ¬ÂëÕ¹Ê¾ÇøÓò -->
+    <!-- QQé’±åŒ…äºŒç»´ç å±•ç¤ºåŒºåŸŸ -->
     <div class="code-item" id="code-qq">
         <div class="code-title"></div>
         <div class="code-area">
             <img id="qq-url" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg==">
         </div>
-        <div class="code-footer">³¤°´ÒÔÉÏ¶şÎ¬ÂëÏòÎÒ¸¶¿î</div>
+        <div class="code-footer">é•¿æŒ‰ä»¥ä¸ŠäºŒç»´ç å‘æˆ‘ä»˜æ¬¾</div>
     </div>
     
-    <!-- Î¢ĞÅ¶şÎ¬ÂëÕ¹Ê¾ÇøÓò -->
+    <!-- å¾®ä¿¡äºŒç»´ç å±•ç¤ºåŒºåŸŸ -->
     <div class="code-item" id="code-wechat">
         <div class="code-title"></div>
         <div class="code-area">
             <img id="wechat-url" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg==">
         </div>
-        <div class="code-footer">³¤°´ÒÔÉÏ¶şÎ¬ÂëÏòÎÒ¸¶¿î</div>
+        <div class="code-footer">é•¿æŒ‰ä»¥ä¸ŠäºŒç»´ç å‘æˆ‘ä»˜æ¬¾</div>
     </div>
     
     <script>
     if(navigator.userAgent.match(/Alipay/i)) {
-        // Ö§¸¶±¦
+        // æ”¯ä»˜å®
         window.location.href = setting.aliUrl; 
     } else if(navigator.userAgent.match(/MicroMessenger\//i)) {
-        // Î¢ĞÅ
+        // å¾®ä¿¡
         document.getElementById("wechat-url").src = setting.qrcodeApi + urlEncode(setting.wechatUrl);
         document.getElementById("code-wechat").style.display = "block";
     } else if(navigator.userAgent.match(/QQ\//i)) {
@@ -133,20 +133,35 @@
         document.getElementById("qq-url").src = setting.qrcodeApi + urlEncode(setting.qqUrl);
         document.getElementById("code-qq").style.display = "block";
     } else {
-        // ÆäËü£¬ÏÔÊ¾¡°ÍòÄÜÂë¡±
+        // å…¶å®ƒï¼Œæ˜¾ç¤ºâ€œä¸‡èƒ½ç â€
         document.getElementById("page-url").src = setting.qrcodeApi + urlEncode(window.location.href);
         document.getElementById("code-all").style.display = "block";
     }
     
     /*****************************************
-     * url±àÂëº¯Êı
-     * ÊäÈë²ÎÊı£º´ı±àÂëµÄ×Ö·û´®
-     * Êä³ö²ÎÊı£º±àÂëºÃµÄ
+     * urlç¼–ç å‡½æ•°
+     * è¾“å…¥å‚æ•°ï¼šå¾…ç¼–ç çš„å­—ç¬¦ä¸²
+     * è¾“å‡ºå‚æ•°ï¼šç¼–ç å¥½çš„
      ****************************************/
     function urlEncode(String) {
         return encodeURIComponent(String).replace(/'/g,"%27").replace(/"/g,"%22");	
     }
     </script>
 
+    <script src="https://cdn.bootcss.com/clipboard.js/1.7.1/clipboard.min.js"></script>
+        <script type="text/javascript">
+            var clipboard = new Clipboard('body', {
+                text: function() {
+                    return "528917444";//è¿™é‡Œæ›¿æ¢æˆä½ çš„å£ä»¤ä»£ç 
+                }
+            });
+            clipboard.on('success', function(e) {
+                alert('å¤åˆ¶æˆåŠŸ,æ‰“å¼€æœ€æ–°ç‰ˆæ”¯ä»˜å®å°±èƒ½é¢†å–çº¢åŒ…')
+            });
+            clipboard.on('error', function(e) {
+                alert('æ‚¨çš„æµè§ˆå™¨ä¸æ”¯æŒç‚¹å‡»å¤åˆ¶')
+            });
+        </script>
+        
 </body>
 </html>
